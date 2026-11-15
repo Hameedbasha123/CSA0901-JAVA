@@ -1,0 +1,32 @@
+
+=== n = 1000 medicines, 100000 lookups, average of 5 runs (ms) ===
+Step                                  HashMap    TreeMap  LinkedHashMap    SortedArray
+Build (n puts / one sort)                0.38       3.12           0.47           2.05
+100,000 lookups                          1.92      14.66           1.31          16.21
+Report: code order                       1.93       0.37           1.65           0.00
+Report: insertion order                  0.50       2.11           0.02           0.00
+Code-order output correct?               true       true           true           true
+Insertion-order output correct?          true       true           true            n/a
+Per-lookup time (microseconds): HashMap=0.019 TreeMap=0.147 LinkedHashMap=0.013 BinarySearch=0.162
+
+=== n = 10000 medicines, 100000 lookups, average of 5 runs (ms) ===
+Step                                  HashMap    TreeMap  LinkedHashMap    SortedArray
+Build (n puts / one sort)                3.14       5.81           0.64          11.09
+100,000 lookups                          4.16      39.67           2.46          45.98
+Report: code order                       3.35       3.65           6.33           0.00
+Report: insertion order                  6.42       3.54           0.19           0.00
+Code-order output correct?               true       true           true           true
+Insertion-order output correct?          true       true           true            n/a
+Per-lookup time (microseconds): HashMap=0.042 TreeMap=0.397 LinkedHashMap=0.025 BinarySearch=0.460
+
+=== n = 100000 medicines, 100000 lookups, average of 5 runs (ms) ===
+Step                                  HashMap    TreeMap  LinkedHashMap    SortedArray
+Build (n puts / one sort)               42.81      69.66          19.89          59.21
+100,000 lookups                          4.11      71.27           4.82          61.36
+Report: code order                      19.13      11.60          45.15           0.00
+Report: insertion order                 21.29      44.03           1.64           0.00
+Code-order output correct?               true       true           true           true
+Insertion-order output correct?          true       true           true            n/a
+Per-lookup time (microseconds): HashMap=0.041 TreeMap=0.713 LinkedHashMap=0.048 BinarySearch=0.614
+
+1000 inserts into a sorted ArrayList of 50,000 (binarySearch + shift): 9.37 ms

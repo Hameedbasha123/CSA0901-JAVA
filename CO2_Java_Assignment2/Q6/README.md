@@ -1,0 +1,1 @@
+Q6 – Completed triage PriorityQueue (Triage.java); TriageStudy.java has the 8-patient hand check, growth test, starvation test and alternative designs. Compile with `javac Triage.java TriageStudy.java`.

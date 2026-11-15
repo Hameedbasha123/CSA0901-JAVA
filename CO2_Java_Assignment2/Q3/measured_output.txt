@@ -1,0 +1,15 @@
+Test 1 - BadStudent, the SAME object scanned twice (HashSet seems to work)
+   predicted size = 2, observed size = 2   (prediction correct)
+Test 2 - BadStudent, a NEW object for each scan (duplicates exposed)
+   predicted size = 3, observed size = 3   (prediction correct)
+   probe.equals(first element)? true  |  s2.contains(probe) = false
+Test 2b - GoodStudent with hashCode() (verification of the fix)
+   predicted size = 2, observed size = 2   (prediction correct)
+Test 3a - regNo changed AFTER insertion (prediction: set still has size 1 but the object cannot be found)
+   size = 1, contains(m) = false, remove(m) = false, size after remove = 1
+   contains(new MutableStudent("192311001")) = false  (same bucket as old hash, but equals() now fails)
+Test 3b - TreeSet ordered by name; two DIFFERENT students with the same name (a set based on equals would hold 2)
+   predicted size = 1, observed size = 1   (prediction correct)
+
+De-duplicating 200000 scans (50000 unique students), ms: HashSet=14.9  HashMap=13.8  TreeSet=141.4
+Final sizes: 49124 49124 49124

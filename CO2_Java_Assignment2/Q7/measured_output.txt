@@ -1,0 +1,18 @@
+Same test for every design: backlog B patients waiting, then 4000 rounds of (1 arrival S1-S4, 1 patient served). Aging step W = 100.
+Each cell is the average of 3 runs (time) - comparison counts and waits are deterministic.
+
+B        Design                                time (ms)    comparisons    S5 served longest S5 wait (ticks)
+500      Original plain PQ                          2.31          83741         0/50                   4500
+500      Naive aging (rebuild per service)         66.39        2070705        50/50                    501
+500      Redesign (static key)                      6.13          68525        50/50                    748
+
+1000     Original plain PQ                          0.58          90909        0/100                   5000
+1000     Naive aging (rebuild per service)         50.78        4078941      100/100                   1001
+1000     Redesign (static key)                      0.57          77027      100/100                   1247
+
+2000     Original plain PQ                          0.64          97024        0/200                   6000
+2000     Naive aging (rebuild per service)         69.12        8089357      200/200                   2001
+2000     Redesign (static key)                      0.68          86022      200/200                   2245
+
+Redesign on the Q6 six-patient example: Meena(S1) Kumar(S1) Lata(S2) Ravi(S3) John(S3) Asha(S5)
+Q6 expected                            : Meena(S1) Kumar(S1) Lata(S2) Ravi(S3) John(S3) Asha(S5)
