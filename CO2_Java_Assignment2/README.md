@@ -1,7 +1,7 @@
 # CO2 Java Assignment 2 – Strings, Collections, Generics, Comparators and Queues
 
-**Student Name:** [Enter your name]  
-**Register Number:** [Enter your register number]  
+**Student Name:** K.Hameed Basha
+**Register Number:** 192425216  
 **Java Version:** JDK 8 or later (measurements in the report were taken on OpenJDK 21)  
 **Repository name:** `CSA09-<RegisterNumber>-Assignment2`
 
