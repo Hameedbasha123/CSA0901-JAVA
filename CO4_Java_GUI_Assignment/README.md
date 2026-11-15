@@ -1,7 +1,7 @@
 # CO4 Java Assignment 4 – Event-Driven GUI Design
 
-**Student Name:** [Enter your name]  
-**Register Number:** [Enter your register number]  
+**Student Name:** K.Hameed Basha  
+**Register Number:** 192425216 
 **Java Version:** JDK 8 or later (tested with JDK 21)  
 **Repository name:** `CSA09-<RegisterNumber>-Assignment4`
 
