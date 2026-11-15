@@ -1,7 +1,7 @@
 # CO5 Java Assignment 5 – Data Persistence Engineering (Transport Office Bus-Pass System)
 
-**Student Name:** [Enter your name]  
-**Register Number:** [Enter your register number]  
+**Student Name:** K.Hameed Basha  
+**Register Number:**192425216 
 **Java Version:** JDK 11 or later  
 **Repository name:** `CSA09-<RegisterNumber>-Assignment5`
 
