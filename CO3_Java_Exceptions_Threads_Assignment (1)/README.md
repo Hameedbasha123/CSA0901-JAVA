@@ -1,9 +1,7 @@
 # CO3 Java Assignment 3 – Exception Handling and Multithreading
 
-**Student A Name:** [Enter name]  
-**Student A Register Number:** [Enter register number]  
-**Student B Name:** [Enter name]  
-**Student B Register Number:** [Enter register number]  
+**Student A Name:** K.Hameed Basha 
+**Student A Register Number:**192425216
 **Java Version:** JDK 8 or later (tested with JDK 21)  
 **Repository name:** `CSA09-<RegisterNumber>-Assignment3`
 
