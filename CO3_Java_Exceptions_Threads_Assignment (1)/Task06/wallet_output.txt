@@ -1,2 +1,0 @@
-Deadlock detected in unsafe version: true
-Safe version finished. Total money: 2000 (expected 2000)

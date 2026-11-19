@@ -1,1 +1,0 @@
-Task 5 – Completed `SeatBooking.java` (TODO 1: synchronized). `RaceExperiment.java` runs the unsynchronized version 10 times. `BookingTiming.java` times four strategies (timings differ on every machine). Analysis is in Assignment_Report.md, Q5.

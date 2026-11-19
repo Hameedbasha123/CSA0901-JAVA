@@ -1,8 +1,0 @@
-State before start : NEW
-isAlive after start: true
-State after join   : TERMINATED
-Total (Thread)     : 110
-Total (Runnable)   : 110
-Running in thread  : main
-Running in thread  : worker
-Total (Executor)   : 110

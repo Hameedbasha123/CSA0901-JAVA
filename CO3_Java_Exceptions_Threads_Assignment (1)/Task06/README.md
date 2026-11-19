@@ -1,1 +1,0 @@
-Task 6 – Completed `TokenCounter.java` (TODO 1 and TODO 2, producer–consumer with wait/notifyAll). `WalletTransfer.java` detects a deadlock and then shows the lock-ordering fix. Analysis is in Assignment_Report.md, Q6.

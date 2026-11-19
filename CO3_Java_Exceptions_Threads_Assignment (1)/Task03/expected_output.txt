@@ -1,8 +1,0 @@
-Good input, manual version : 350
-Open files after manual    : 1
-Good input, try-with-res   : 350
-Open files after twr       : 0
-Manual failed on store3: true
-Files left open (manual, failing input): 1
-Try-with-resources failed on store3: true
-Files left open (try-with-resources, failing input): 0
