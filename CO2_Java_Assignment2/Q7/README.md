@@ -1,1 +1,0 @@
-Q7 – Day-4 design challenge on the Q6 triage queue: plain PQ vs naive aging (rebuild) vs redesign (static key = arrival + severity*W). Compile with `javac AgingStudy.java` and run with `java AgingStudy`.

@@ -1,1 +1,0 @@
-Q3 – Completed Attendance.java (hashCode added) prints 'Unique students: 2'. `before/Attendance.java` has TODO 1 not completed and prints 3 (see before/output_before_TODO1.txt). HashContractTests.java runs three designed tests. Compile with `javac Attendance.java HashContractTests.java`.
