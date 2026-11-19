@@ -1,0 +1,1 @@
+Task 7 – Concurrent fault-tolerant result processor using ExecutorService, Callable, Future and ConcurrentHashMap (`ResultProcessor.java`). Only the first line of `expected_output.txt` is fixed; the timings in `measurement_output.txt` will differ on your machine. Analysis is in Assignment_Report.md, Q7.

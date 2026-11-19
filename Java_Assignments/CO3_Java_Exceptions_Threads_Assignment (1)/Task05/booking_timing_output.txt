@@ -1,0 +1,4 @@
+synchronized method: 11136 microseconds, seats sold = 1000
+synchronized block : 7992 microseconds, seats sold = 1000
+AtomicBoolean[]    : 9825 microseconds, seats sold = 1000
+ReentrantLock      : 9365 microseconds, seats sold = 1000

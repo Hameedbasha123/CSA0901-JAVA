@@ -1,0 +1,1 @@
+Q1 – String vs StringBuilder vs StringBuffer vs String.join for e-tickets (3 workloads, time, characters copied, allocation, thread-safety test). Compile with `javac TicketBench.java` and run with `java TicketBench`.

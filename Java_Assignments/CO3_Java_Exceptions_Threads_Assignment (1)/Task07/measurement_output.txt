@@ -1,0 +1,6 @@
+Small set -> success: 7, corrupt: 2, missing: 1 (expected 7, 2, 1)
+Expected for 10,000 files -> success: 9503, corrupt: 297, missing: 200
+Pool 1 thread(s): 11100 ms  -> success 9503, corrupt 297, missing 200
+Pool 2 thread(s): 5484 ms  -> success 9503, corrupt 297, missing 200
+Pool 4 thread(s): 2729 ms  -> success 9503, corrupt 297, missing 200
+Pool 8 thread(s): 1357 ms  -> success 9503, corrupt 297, missing 200

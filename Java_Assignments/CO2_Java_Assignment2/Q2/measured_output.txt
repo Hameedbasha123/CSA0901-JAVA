@@ -1,0 +1,28 @@
+Time in ms (average of 3 runs). Insert/remove/get use 1000 operations each; add-end and iterate use n elements.
+
+=== Playlist size n = 10000 ===
+Operation               ArrayList LinkedList ArrayDeque
+Add at end (n adds)         0.410      1.748      1.853
+Insert at front             0.859      0.768      0.078
+Insert in middle            0.334     10.895        n/a
+Remove from front           0.542      0.388      1.435
+Get k-th (random)           0.109      4.203        n/a
+Iterate whole list          0.520      0.357      1.933
+
+=== Playlist size n = 50000 ===
+Operation               ArrayList LinkedList ArrayDeque
+Add at end (n adds)         2.089      1.842      0.627
+Insert at front             4.120      0.023      0.022
+Insert in middle            5.147     48.398        n/a
+Remove from front           6.883      0.532      0.021
+Get k-th (random)           0.457     30.606        n/a
+Iterate whole list          1.477      1.096      0.326
+
+=== Playlist size n = 100000 ===
+Operation               ArrayList LinkedList ArrayDeque
+Add at end (n adds)         1.054      1.521      0.839
+Insert at front             9.179      0.043      0.015
+Insert in middle            4.581    114.300        n/a
+Remove from front           8.828      0.027      0.015
+Get k-th (random)           0.181     68.437        n/a
+Iterate whole list          0.992      1.397      0.467

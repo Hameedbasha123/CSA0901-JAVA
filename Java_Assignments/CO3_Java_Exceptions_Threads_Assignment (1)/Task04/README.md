@@ -1,0 +1,1 @@
+Task 4 – Thread vs Runnable stations, run() vs start(), join(), and an ExecutorService version (`ScannerStations.java`). `FinishOrder.java` repeats the run 10 times and tests a daemon thread. Finish orders change from run to run; see `finish_order_output.txt` for one sample. Analysis is in Assignment_Report.md, Q4.

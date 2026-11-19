@@ -1,0 +1,21 @@
+PriorityQueue printed directly (heap array order, NOT treatment order):
+   [Meena(S1), Kumar(S1), Lata(S2), Sita(S2), Ravi(S3), John(S3), Farid(S3), Asha(S5)]
+Treatment order (poll one by one): Meena(S1) Kumar(S1) Lata(S2) Sita(S2) Ravi(S3) John(S3) Farid(S3) Asha(S5)
+Hand-worked expected order        : Meena(S1) Kumar(S1) Lata(S2) Sita(S2) Ravi(S3) John(S3) Farid(S3) Asha(S5)
+Matches hand calculation? true
+
+Growth of PriorityQueue (average of 5 runs, ms; per-operation time in microseconds)
+n            add n (ms)    add/op (us)  poll n (ms)   poll/op (us)
+10000              3.83          0.383         4.15          0.415
+100000             6.17          0.062        29.91          0.299
+1000000           95.13          0.095       343.59          0.344
+
+Starvation test: S5 patient 'Asha' served at round NEVER in 100000 rounds (one arrival and one service per round, arrivals are S1-S4)
+
+Alternative designs: admit n then serve n (ms, average of 3 runs)
+n           PriorityQueue SortedLinkedList    5 FIFO queues
+2000                 0.26            14.58             1.64
+10000                1.40           132.07             2.33
+40000                7.70          7379.59             1.27
+
+One full day (5000 admits + 5000 serves) took 0.825 ms
